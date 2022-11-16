@@ -1,0 +1,80 @@
+:root {
+    --gris-oscuro: #353A40;
+    --gris-claro: #9C9BA0;
+    --verde: #29A744;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 74vh;
+    align-items: center;
+}
+
+.bg-gris {
+    
+    background-color: #353A40;
+}
+
+.nav-conf {
+    padding: 10px 5%;
+}
+.nav-h {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.nav-h:visited {
+    color: white;
+}
+
+.nav-l {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-l a {
+    color: var(--gris-claro);
+}
+
+.nav-l a:hover {
+    color: white;
+}
+
+.nav-l a:active {
+    color: white;
+}
+
+.nav-l a:visited {
+    color: var(--gris-claro);
+}
+
+.verde {
+    color: #29A744 !important;
+}
+
+#resum {
+    background-color: chartreuse;
+    color: white;
+    font-size: 20px;  
+}
+
+#refresh {
+    background-color: chartreuse;
+    color: white;
+    font-size: 20px;
+}
+
+footer > .nav > .nav-item > a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(to right,#1a3745,#1d4c66);  
+}
